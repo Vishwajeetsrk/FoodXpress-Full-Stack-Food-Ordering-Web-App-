@@ -7,19 +7,25 @@ Built using **HTML, CSS, and JavaScript**, featuring real-time cart updates, sea
 
 ##  Live Demo
  
- https://github.com/Vishwajeetsrk/FoodXpress-Full-Stack-Food-Ordering-Web-App-
+ https://github.com/Vishwajeetsrk/FoodXpress-Food_Ordering
 
 ---
 
 ##  Preview
-<div align="center">
-<img src="foodxpress1.png" width="150"/>
-<img src="foodxpress2.png" width="150"/>
-<img src="foodxpress3.png" width="150"/>
-<img src="foodxpress4.png" width="150"/>
-<img src="foodxpress5.png" width="150"/>
-</div>
 
+ ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](foodxpress1.png)
+ <br>
+ ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](foodxpress2.png)
+ <br>
+  ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](foodxpress3.png)
+  <br>
+ ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](foodxpress4.png)
+ <br>
+  <div align="center">
+
+![Screenshot](foodxpress5.png)
+
+</div>
 
 ##  Features
 
