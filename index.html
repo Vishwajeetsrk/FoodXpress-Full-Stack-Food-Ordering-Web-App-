@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoodXpress</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">FX</div>
+      <div>
+        <h1>FoodXpress</h1>
+        <p>Fast delivery. Fresh food. Real taste.</p>
+      </div>
+    </div>
+
+    <div class="search-wrap">
+      <input id="searchInput" type="text" placeholder="Search dishes, restaurants..." />
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="pizza">Pizza</option>
+        <option value="burger">Burger</option>
+        <option value="indian">Indian</option>
+        <option value="dessert">Dessert</option>
+      </select>
+    </div>
+
+    <button class="cart-btn" onclick="toggleCart()">
+      Cart <span id="cartCount">0</span>
+    </button>
+  </header>
+
+  <section class="hero">
+    <div>
+      <p class="tag">Premium Food Delivery Experience</p>
+      <h2>Order from the best restaurants near you</h2>
+      <p class="hero-text">
+        Inspired by modern delivery apps — clean UI, fast browsing, and a smooth checkout flow.
+      </p>
+    </div>
+  </section>
+
+  <main class="page">
+    <section>
+      <div class="section-head">
+        <h3>Popular Restaurants</h3>
+        <span>Top-rated picks</span>
+      </div>
+
+      <div id="restaurantGrid" class="restaurant-grid"></div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h3>Menu</h3>
+        <span>Freshly prepared items</span>
+      </div>
+
+      <div id="menuGrid" class="menu-grid"></div>
+    </section>
+  </main>
+
+  <aside id="cartDrawer" class="cart-drawer">
+    <div class="cart-head">
+      <h3>Your Cart</h3>
+      <button onclick="toggleCart()">✕</button>
+    </div>
+
+    <div id="cartItems" class="cart-items"></div>
+
+    <div class="cart-footer">
+      <div class="total-row">
+        <span>Total</span>
+        <strong>₹<span id="cartTotal">0</span></strong>
+      </div>
+      <button class="checkout-btn" onclick="openCheckout()">Proceed to Checkout</button>
+    </div>
+  </aside>
+
+  <div id="checkoutModal" class="modal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3>Checkout</h3>
+        <button onclick="closeCheckout()">✕</button>
+      </div>
+
+      <form id="checkoutForm">
+        <label>
+          Full Name
+          <input type="text" required placeholder="Your name" />
+        </label>
+
+        <label>
+          Mobile Number
+          <input type="tel" required placeholder="10-digit mobile number" />
+        </label>
+
+        <label>
+          Delivery Address
+          <textarea rows="4" required placeholder="Flat, street, city, landmark"></textarea>
+        </label>
+
+        <label>
+          Payment Method
+          <select required>
+            <option value="">Select payment method</option>
+            <option>Cash on Delivery</option>
+            <option>UPI</option>
+            <option>Card</option>
+          </select>
+        </label>
+
+        <button type="submit" class="place-order-btn">Place Order</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
