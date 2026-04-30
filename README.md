@@ -12,9 +12,16 @@ Built using **HTML, CSS, and JavaScript**, featuring real-time cart updates, sea
 ---
 
 ##  Preview
+<div align="center">
 
 ![App Preview](https://via.placeholder.com/800x400?text=FoodXpress+App+Preview)
+<img src="" width="150"/>
+<img src="" width="150"/>
+<img src="" width="150"/>
+<img src="" width="150"/>
+<img src="" width="150"/>
 
+</div>
 ---
 
 ##  Features
